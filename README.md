@@ -1,1 +1,3 @@
 # Fractal
+
+Fractal group portfolio
