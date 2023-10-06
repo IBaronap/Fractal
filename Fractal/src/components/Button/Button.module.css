@@ -1,0 +1,43 @@
+button{
+    color: white;
+
+    border-radius: 100px;
+    border: none;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+    .principalBTN{
+        background-color: var(--Orange);
+
+        padding: 2vh 6vh;
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .secondaryBTN{
+        background-color: var(--Purple);
+
+        padding: 2vh 12vh;
+
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+        .adminBTN{
+            background-color: var(--Purple);
+
+            padding: 2vh 4vh;
+
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }

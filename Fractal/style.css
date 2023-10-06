@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Typographica';
+  src: url('./src/Assets/Fonts/Typographica-Blp5.ttf');
+}
+
+:root {
+  font-family: 'Montserrat';
+  color: #464646;
+  background-color: #ffffff;
+
+  /* Colors */
+    --Purple: #5332D8;
+    --Orange: #FF7D00;
+    --AlmostWhite: #F6F6F6;
+    --Degradado: linear-gradient(299deg, #5332D8 1.89%, #7B32D8 96.21%);
+}
+
+h1{
+  font-family: 'Typographica';
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  margin: 0;
+  text-align: center;
+}
